@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environment
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local vector database
+vectorstore/
+
+# Ignore raw data except the synthetic incident dataset
+data/raw/*
+!data/raw/
+!data/raw/incidents.json
+
+# Processed data
+data/processed/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local backup files
+app_direct_pipeline_backup.py
