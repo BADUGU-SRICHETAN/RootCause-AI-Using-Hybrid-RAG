@@ -1,0 +1,43 @@
+# Document processing
+pymupdf
+
+# RAG framework
+langchain
+langchain-community
+langchain-classic
+langchain-text-splitters
+langchain-chroma
+
+# Embeddings
+
+# BM25
+rank-bm25
+
+# Vector database
+chromadb
+
+# LLM
+openai
+
+# Backend
+fastapi
+uvicorn
+
+# Frontend
+streamlit
+
+# Data processing
+pandas
+numpy
+
+# Environment
+python-dotenv
+
+# Evaluation
+scikit-learn
+
+# Testing
+pytest
+
+langchain-openai
+requests
