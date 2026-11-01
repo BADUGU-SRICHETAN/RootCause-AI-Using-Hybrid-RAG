@@ -1,0 +1,1375 @@
+{
+    "total_queries": 90,
+    "answerable": 80,
+    "unanswerable": 10,
+    "threshold_results": {
+        "vector_score": [
+            {
+                "threshold": 0.1,
+                "TP": 79,
+                "FP": 9,
+                "TN": 1,
+                "FN": 1,
+                "precision": 0.8977,
+                "recall": 0.9875,
+                "specificity": 0.1
+            },
+            {
+                "threshold": 0.15,
+                "TP": 79,
+                "FP": 9,
+                "TN": 1,
+                "FN": 1,
+                "precision": 0.8977,
+                "recall": 0.9875,
+                "specificity": 0.1
+            },
+            {
+                "threshold": 0.2,
+                "TP": 77,
+                "FP": 7,
+                "TN": 3,
+                "FN": 3,
+                "precision": 0.9167,
+                "recall": 0.9625,
+                "specificity": 0.3
+            },
+            {
+                "threshold": 0.25,
+                "TP": 76,
+                "FP": 5,
+                "TN": 5,
+                "FN": 4,
+                "precision": 0.9383,
+                "recall": 0.95,
+                "specificity": 0.5
+            },
+            {
+                "threshold": 0.3,
+                "TP": 76,
+                "FP": 3,
+                "TN": 7,
+                "FN": 4,
+                "precision": 0.962,
+                "recall": 0.95,
+                "specificity": 0.7
+            },
+            {
+                "threshold": 0.35,
+                "TP": 73,
+                "FP": 0,
+                "TN": 10,
+                "FN": 7,
+                "precision": 1.0,
+                "recall": 0.9125,
+                "specificity": 1.0
+            },
+            {
+                "threshold": 0.4,
+                "TP": 63,
+                "FP": 0,
+                "TN": 10,
+                "FN": 17,
+                "precision": 1.0,
+                "recall": 0.7875,
+                "specificity": 1.0
+            },
+            {
+                "threshold": 0.45,
+                "TP": 44,
+                "FP": 0,
+                "TN": 10,
+                "FN": 36,
+                "precision": 1.0,
+                "recall": 0.55,
+                "specificity": 1.0
+            },
+            {
+                "threshold": 0.5,
+                "TP": 40,
+                "FP": 0,
+                "TN": 10,
+                "FN": 40,
+                "precision": 1.0,
+                "recall": 0.5,
+                "specificity": 1.0
+            },
+            {
+                "threshold": 0.55,
+                "TP": 23,
+                "FP": 0,
+                "TN": 10,
+                "FN": 57,
+                "precision": 1.0,
+                "recall": 0.2875,
+                "specificity": 1.0
+            },
+            {
+                "threshold": 0.6,
+                "TP": 12,
+                "FP": 0,
+                "TN": 10,
+                "FN": 68,
+                "precision": 1.0,
+                "recall": 0.15,
+                "specificity": 1.0
+            },
+            {
+                "threshold": 0.65,
+                "TP": 5,
+                "FP": 0,
+                "TN": 10,
+                "FN": 75,
+                "precision": 1.0,
+                "recall": 0.0625,
+                "specificity": 1.0
+            },
+            {
+                "threshold": 0.7,
+                "TP": 3,
+                "FP": 0,
+                "TN": 10,
+                "FN": 77,
+                "precision": 1.0,
+                "recall": 0.0375,
+                "specificity": 1.0
+            },
+            {
+                "threshold": 0.75,
+                "TP": 0,
+                "FP": 0,
+                "TN": 10,
+                "FN": 80,
+                "precision": 0.0,
+                "recall": 0.0,
+                "specificity": 1.0
+            },
+            {
+                "threshold": 0.8,
+                "TP": 0,
+                "FP": 0,
+                "TN": 10,
+                "FN": 80,
+                "precision": 0.0,
+                "recall": 0.0,
+                "specificity": 1.0
+            }
+        ],
+        "bm25_score": [
+            {
+                "threshold": 1.0,
+                "TP": 80,
+                "FP": 10,
+                "TN": 0,
+                "FN": 0,
+                "precision": 0.8889,
+                "recall": 1.0,
+                "specificity": 0.0
+            },
+            {
+                "threshold": 2.0,
+                "TP": 80,
+                "FP": 10,
+                "TN": 0,
+                "FN": 0,
+                "precision": 0.8889,
+                "recall": 1.0,
+                "specificity": 0.0
+            },
+            {
+                "threshold": 3.0,
+                "TP": 80,
+                "FP": 10,
+                "TN": 0,
+                "FN": 0,
+                "precision": 0.8889,
+                "recall": 1.0,
+                "specificity": 0.0
+            },
+            {
+                "threshold": 4.0,
+                "TP": 76,
+                "FP": 6,
+                "TN": 4,
+                "FN": 4,
+                "precision": 0.9268,
+                "recall": 0.95,
+                "specificity": 0.4
+            },
+            {
+                "threshold": 5.0,
+                "TP": 72,
+                "FP": 4,
+                "TN": 6,
+                "FN": 8,
+                "precision": 0.9474,
+                "recall": 0.9,
+                "specificity": 0.6
+            },
+            {
+                "threshold": 6.0,
+                "TP": 69,
+                "FP": 2,
+                "TN": 8,
+                "FN": 11,
+                "precision": 0.9718,
+                "recall": 0.8625,
+                "specificity": 0.8
+            },
+            {
+                "threshold": 7.0,
+                "TP": 63,
+                "FP": 1,
+                "TN": 9,
+                "FN": 17,
+                "precision": 0.9844,
+                "recall": 0.7875,
+                "specificity": 0.9
+            },
+            {
+                "threshold": 8.0,
+                "TP": 55,
+                "FP": 0,
+                "TN": 10,
+                "FN": 25,
+                "precision": 1.0,
+                "recall": 0.6875,
+                "specificity": 1.0
+            },
+            {
+                "threshold": 9.0,
+                "TP": 50,
+                "FP": 0,
+                "TN": 10,
+                "FN": 30,
+                "precision": 1.0,
+                "recall": 0.625,
+                "specificity": 1.0
+            },
+            {
+                "threshold": 10.0,
+                "TP": 46,
+                "FP": 0,
+                "TN": 10,
+                "FN": 34,
+                "precision": 1.0,
+                "recall": 0.575,
+                "specificity": 1.0
+            },
+            {
+                "threshold": 11.0,
+                "TP": 45,
+                "FP": 0,
+                "TN": 10,
+                "FN": 35,
+                "precision": 1.0,
+                "recall": 0.5625,
+                "specificity": 1.0
+            },
+            {
+                "threshold": 12.0,
+                "TP": 40,
+                "FP": 0,
+                "TN": 10,
+                "FN": 40,
+                "precision": 1.0,
+                "recall": 0.5,
+                "specificity": 1.0
+            },
+            {
+                "threshold": 13.0,
+                "TP": 32,
+                "FP": 0,
+                "TN": 10,
+                "FN": 48,
+                "precision": 1.0,
+                "recall": 0.4,
+                "specificity": 1.0
+            },
+            {
+                "threshold": 14.0,
+                "TP": 27,
+                "FP": 0,
+                "TN": 10,
+                "FN": 53,
+                "precision": 1.0,
+                "recall": 0.3375,
+                "specificity": 1.0
+            },
+            {
+                "threshold": 15.0,
+                "TP": 23,
+                "FP": 0,
+                "TN": 10,
+                "FN": 57,
+                "precision": 1.0,
+                "recall": 0.2875,
+                "specificity": 1.0
+            }
+        ],
+        "rrf_score": [
+            {
+                "threshold": 0.01,
+                "TP": 80,
+                "FP": 10,
+                "TN": 0,
+                "FN": 0,
+                "precision": 0.8889,
+                "recall": 1.0,
+                "specificity": 0.0
+            },
+            {
+                "threshold": 0.012,
+                "TP": 80,
+                "FP": 10,
+                "TN": 0,
+                "FN": 0,
+                "precision": 0.8889,
+                "recall": 1.0,
+                "specificity": 0.0
+            },
+            {
+                "threshold": 0.014,
+                "TP": 80,
+                "FP": 10,
+                "TN": 0,
+                "FN": 0,
+                "precision": 0.8889,
+                "recall": 1.0,
+                "specificity": 0.0
+            },
+            {
+                "threshold": 0.016,
+                "TP": 80,
+                "FP": 10,
+                "TN": 0,
+                "FN": 0,
+                "precision": 0.8889,
+                "recall": 1.0,
+                "specificity": 0.0
+            },
+            {
+                "threshold": 0.018,
+                "TP": 79,
+                "FP": 9,
+                "TN": 1,
+                "FN": 1,
+                "precision": 0.8977,
+                "recall": 0.9875,
+                "specificity": 0.1
+            },
+            {
+                "threshold": 0.02,
+                "TP": 79,
+                "FP": 9,
+                "TN": 1,
+                "FN": 1,
+                "precision": 0.8977,
+                "recall": 0.9875,
+                "specificity": 0.1
+            },
+            {
+                "threshold": 0.022,
+                "TP": 79,
+                "FP": 9,
+                "TN": 1,
+                "FN": 1,
+                "precision": 0.8977,
+                "recall": 0.9875,
+                "specificity": 0.1
+            },
+            {
+                "threshold": 0.024,
+                "TP": 79,
+                "FP": 9,
+                "TN": 1,
+                "FN": 1,
+                "precision": 0.8977,
+                "recall": 0.9875,
+                "specificity": 0.1
+            },
+            {
+                "threshold": 0.026,
+                "TP": 79,
+                "FP": 9,
+                "TN": 1,
+                "FN": 1,
+                "precision": 0.8977,
+                "recall": 0.9875,
+                "specificity": 0.1
+            },
+            {
+                "threshold": 0.028,
+                "TP": 79,
+                "FP": 9,
+                "TN": 1,
+                "FN": 1,
+                "precision": 0.8977,
+                "recall": 0.9875,
+                "specificity": 0.1
+            },
+            {
+                "threshold": 0.03,
+                "TP": 79,
+                "FP": 8,
+                "TN": 2,
+                "FN": 1,
+                "precision": 0.908,
+                "recall": 0.9875,
+                "specificity": 0.2
+            },
+            {
+                "threshold": 0.032,
+                "TP": 74,
+                "FP": 3,
+                "TN": 7,
+                "FN": 6,
+                "precision": 0.961,
+                "recall": 0.925,
+                "specificity": 0.7
+            },
+            {
+                "threshold": 0.034,
+                "TP": 0,
+                "FP": 0,
+                "TN": 10,
+                "FN": 80,
+                "precision": 0.0,
+                "recall": 0.0,
+                "specificity": 1.0
+            },
+            {
+                "threshold": 0.036,
+                "TP": 0,
+                "FP": 0,
+                "TN": 10,
+                "FN": 80,
+                "precision": 0.0,
+                "recall": 0.0,
+                "specificity": 1.0
+            },
+            {
+                "threshold": 0.038,
+                "TP": 0,
+                "FP": 0,
+                "TN": 10,
+                "FN": 80,
+                "precision": 0.0,
+                "recall": 0.0,
+                "specificity": 1.0
+            },
+            {
+                "threshold": 0.04,
+                "TP": 0,
+                "FP": 0,
+                "TN": 10,
+                "FN": 80,
+                "precision": 0.0,
+                "recall": 0.0,
+                "specificity": 1.0
+            }
+        ]
+    },
+    "query_scores": [
+        {
+            "case_id": "ORIG001",
+            "category": "original",
+            "query": "Why are payment requests failing because the database connection pool is exhausted?",
+            "answerable": true,
+            "vector_score": 0.624339759349823,
+            "bm25_score": 16.654772542450658,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "ORIG002",
+            "category": "original",
+            "query": "Why are database queries taking too long when retrieving order history?",
+            "answerable": true,
+            "vector_score": 0.5324110388755798,
+            "bm25_score": 9.503392878510704,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "ORIG003",
+            "category": "original",
+            "query": "Why can't the Inventory Service authenticate with its database after credentials were rotated?",
+            "answerable": true,
+            "vector_score": 0.5307081937789917,
+            "bm25_score": 9.783735939413747,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "ORIG004",
+            "category": "original",
+            "query": "Why are scheduled reports failing because the database has too many open connections?",
+            "answerable": true,
+            "vector_score": 0.5630021095275879,
+            "bm25_score": 19.098488935420672,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "ORIG005",
+            "category": "original",
+            "query": "What causes database deadlocks during concurrent checkout transactions?",
+            "answerable": true,
+            "vector_score": 0.5814648270606995,
+            "bm25_score": 11.47181283758756,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "ORIG006",
+            "category": "original",
+            "query": "Why are recently updated products missing from catalog reads?",
+            "answerable": true,
+            "vector_score": 0.41677647829055786,
+            "bm25_score": 17.787880335254894,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "ORIG007",
+            "category": "original",
+            "query": "Why does the User Service receive connection refused errors after a database restart?",
+            "answerable": true,
+            "vector_score": 0.6143344640731812,
+            "bm25_score": 17.923733898544167,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "ORIG008",
+            "category": "original",
+            "query": "Why are database writes failing because the storage volume is full?",
+            "answerable": true,
+            "vector_score": 0.5116115808486938,
+            "bm25_score": 6.713334885574356,
+            "rrf_score": 0.03252247488101534,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "ORIG009",
+            "category": "original",
+            "query": "Why is the Billing Service experiencing slow transaction commits?",
+            "answerable": true,
+            "vector_score": 0.585303783416748,
+            "bm25_score": 13.912056129547727,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "ORIG010",
+            "category": "original",
+            "query": "Why does database access gradually stop working in the Notification Service background worker?",
+            "answerable": true,
+            "vector_score": 0.5421379804611206,
+            "bm25_score": 17.568468092729386,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "ORIG011",
+            "category": "original",
+            "query": "Why does the Customer API throw a NullPointerException when an optional address is missing?",
+            "answerable": true,
+            "vector_score": 0.6108920574188232,
+            "bm25_score": 20.50206808862384,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "ORIG012",
+            "category": "original",
+            "query": "Why does the Search API return HTTP 504 during traffic spikes?",
+            "answerable": true,
+            "vector_score": 0.5709155201911926,
+            "bm25_score": 17.311932586465204,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "ORIG013",
+            "category": "original",
+            "query": "Why do malformed JSON requests produce HTTP 500 instead of HTTP 400?",
+            "answerable": true,
+            "vector_score": 0.5716544389724731,
+            "bm25_score": 23.296887676924737,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "ORIG014",
+            "category": "original",
+            "query": "Why are legitimate API clients receiving HTTP 429 despite sending very few requests?",
+            "answerable": true,
+            "vector_score": 0.43452608585357666,
+            "bm25_score": 12.984689618991887,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "ORIG015",
+            "category": "original",
+            "query": "Why are browser requests blocked by CORS while direct server requests work?",
+            "answerable": true,
+            "vector_score": 0.5670111775398254,
+            "bm25_score": 22.28594509362918,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "ORIG016",
+            "category": "original",
+            "query": "Why does product pagination fail on the final page with an IndexOutOfBoundsException?",
+            "answerable": true,
+            "vector_score": 0.6261098980903625,
+            "bm25_score": 24.32527570095357,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "ORIG017",
+            "category": "original",
+            "query": "Why does event serialization fail when the application processes Java timestamps?",
+            "answerable": true,
+            "vector_score": 0.6559939384460449,
+            "bm25_score": 14.802972139828748,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "ORIG018",
+            "category": "original",
+            "query": "Why does the Shipping API return HTTP 503 when its carrier dependency becomes unavailable?",
+            "answerable": true,
+            "vector_score": 0.6519582271575928,
+            "bm25_score": 23.870710780681343,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "ORIG019",
+            "category": "original",
+            "query": "Why are large document uploads rejected with HTTP 413?",
+            "answerable": true,
+            "vector_score": 0.6316381692886353,
+            "bm25_score": 14.859902060214626,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "ORIG020",
+            "category": "original",
+            "query": "Why do admin update requests fail with HTTP 405 after the client changed from PUT to PATCH?",
+            "answerable": true,
+            "vector_score": 0.7230126857757568,
+            "bm25_score": 28.6087563658655,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "ORIG021",
+            "category": "original",
+            "query": "Why does the User Service crash with Java heap space errors after running for several hours?",
+            "answerable": true,
+            "vector_score": 0.7473067045211792,
+            "bm25_score": 23.27806689337502,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "ORIG022",
+            "category": "original",
+            "query": "Why is CPU utilization above 95 percent in the Pricing Service?",
+            "answerable": true,
+            "vector_score": 0.4057950973510742,
+            "bm25_score": 19.51480496734717,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "ORIG023",
+            "category": "original",
+            "query": "Why are image processing tasks rejected when the application experiences concurrent load?",
+            "answerable": true,
+            "vector_score": 0.5023506879806519,
+            "bm25_score": 11.101323827696728,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "ORIG024",
+            "category": "original",
+            "query": "Why is the Recommendation Service experiencing long garbage collection pauses?",
+            "answerable": true,
+            "vector_score": 0.590941309928894,
+            "bm25_score": 16.860509027777965,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "ORIG025",
+            "category": "original",
+            "query": "Why do application instances repeatedly restart because startup takes too long?",
+            "answerable": true,
+            "vector_score": 0.416603684425354,
+            "bm25_score": 21.741612548489694,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "ORIG026",
+            "category": "original",
+            "query": "Why is the Audit API slow when returning large event responses?",
+            "answerable": true,
+            "vector_score": 0.5629986524581909,
+            "bm25_score": 16.872601109139502,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "ORIG027",
+            "category": "original",
+            "query": "Why does worker memory increase continuously when downstream processing is unavailable?",
+            "answerable": true,
+            "vector_score": 0.5114549994468689,
+            "bm25_score": 11.948637419951522,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "ORIG028",
+            "category": "original",
+            "query": "Why are metrics export requests waiting for available HTTP connections?",
+            "answerable": true,
+            "vector_score": 0.48499155044555664,
+            "bm25_score": 17.417903436118923,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "ORIG029",
+            "category": "original",
+            "query": "Why do certain long user inputs cause extremely slow regular expression processing?",
+            "answerable": true,
+            "vector_score": 0.4080009460449219,
+            "bm25_score": 23.067896549845006,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "ORIG030",
+            "category": "original",
+            "query": "Why is log ingestion falling behind during compression and log rotation?",
+            "answerable": true,
+            "vector_score": 0.42743611335754395,
+            "bm25_score": 27.01366310001015,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "PARA001",
+            "category": "paraphrased",
+            "query": "How can insufficient database connections cause payment failures?",
+            "answerable": true,
+            "vector_score": 0.5381183624267578,
+            "bm25_score": 7.673806190300676,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "PARA002",
+            "category": "paraphrased",
+            "query": "What makes order history database searches exceed their time limit?",
+            "answerable": true,
+            "vector_score": 0.5485110878944397,
+            "bm25_score": 13.080010194336172,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "PARA003",
+            "category": "paraphrased",
+            "query": "Why does Inventory Service fail to log in to its database after a password change?",
+            "answerable": true,
+            "vector_score": 0.5452022552490234,
+            "bm25_score": 11.458597941957992,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "PARA004",
+            "category": "paraphrased",
+            "query": "What could cause reporting jobs to consume all available database sessions?",
+            "answerable": true,
+            "vector_score": 0.5154107809066772,
+            "bm25_score": 7.009544941849462,
+            "rrf_score": 0.03252247488101534,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "PARA005",
+            "category": "paraphrased",
+            "query": "Why do simultaneous checkout operations block one another?",
+            "answerable": true,
+            "vector_score": 0.40878140926361084,
+            "bm25_score": 4.318925815679995,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "PARA006",
+            "category": "paraphrased",
+            "query": "What can make a database read replica fall behind the primary database?",
+            "answerable": true,
+            "vector_score": 0.40249067544937134,
+            "bm25_score": 14.28240141094925,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "PARA007",
+            "category": "paraphrased",
+            "query": "Why does User Service fail to reconnect when the database comes back online?",
+            "answerable": true,
+            "vector_score": 0.46949303150177,
+            "bm25_score": 8.78433584720752,
+            "rrf_score": 0.03252247488101534,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "PARA008",
+            "category": "paraphrased",
+            "query": "What happens when temporary database files consume all available disk space?",
+            "answerable": true,
+            "vector_score": 0.3773549795150757,
+            "bm25_score": 12.575146592122746,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "PARA009",
+            "category": "paraphrased",
+            "query": "Why might billing transactions take unusually long to commit?",
+            "answerable": true,
+            "vector_score": 0.5409785509109497,
+            "bm25_score": 12.907484765466082,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "PARA010",
+            "category": "paraphrased",
+            "query": "What causes background notification workers to hold database connections indefinitely?",
+            "answerable": true,
+            "vector_score": 0.5629939436912537,
+            "bm25_score": 12.921975492306775,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "PARA011",
+            "category": "paraphrased",
+            "query": "Why does Customer API crash when an address field is null?",
+            "answerable": true,
+            "vector_score": 0.6104521751403809,
+            "bm25_score": 13.012043197026259,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "PARA012",
+            "category": "paraphrased",
+            "query": "What makes Search API requests wait too long for the recommendation service?",
+            "answerable": true,
+            "vector_score": 0.5087599754333496,
+            "bm25_score": 12.701307248760642,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "PARA013",
+            "category": "paraphrased",
+            "query": "Why does the API return an internal error for malformed JSON input?",
+            "answerable": true,
+            "vector_score": 0.5626833438873291,
+            "bm25_score": 12.312357647253616,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "PARA014",
+            "category": "paraphrased",
+            "query": "Why are API clients being throttled even when their request rates are low?",
+            "answerable": true,
+            "vector_score": 0.6166051626205444,
+            "bm25_score": 15.565995188545624,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "PARA015",
+            "category": "paraphrased",
+            "query": "What configuration prevents browser OPTIONS requests from passing through the gateway?",
+            "answerable": true,
+            "vector_score": 0.5158741474151611,
+            "bm25_score": 14.729224611343486,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "PARA016",
+            "category": "paraphrased",
+            "query": "Why does Product API fail when a requested page contains fewer items than expected?",
+            "answerable": true,
+            "vector_score": 0.5718426704406738,
+            "bm25_score": 12.901633005417729,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "PARA017",
+            "category": "paraphrased",
+            "query": "What causes JSON serialization to fail when an event contains a Java timestamp?",
+            "answerable": true,
+            "vector_score": 0.7060916423797607,
+            "bm25_score": 18.65620978027262,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "PARA018",
+            "category": "paraphrased",
+            "query": "Why does Shipping API expose connection failures from an unavailable dependency?",
+            "answerable": true,
+            "vector_score": 0.5464996099472046,
+            "bm25_score": 13.128720754028453,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "PARA019",
+            "category": "paraphrased",
+            "query": "Why are document uploads rejected when their size is within the documented limit?",
+            "answerable": true,
+            "vector_score": 0.4887493848800659,
+            "bm25_score": 17.16942001723587,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "PARA020",
+            "category": "paraphrased",
+            "query": "What prevents Admin API clients from updating resources using PATCH?",
+            "answerable": true,
+            "vector_score": 0.5321357250213623,
+            "bm25_score": 9.932429552735956,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "AMB001",
+            "category": "ambiguous",
+            "query": "Why is the application unable to obtain a connection?",
+            "answerable": true,
+            "vector_score": 0.38481783866882324,
+            "bm25_score": 6.458277488581016,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "AMB002",
+            "category": "ambiguous",
+            "query": "Why are database operations becoming slow?",
+            "answerable": true,
+            "vector_score": 0.2239900827407837,
+            "bm25_score": 3.84369146917521,
+            "rrf_score": 0.031099324975891997,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "AMB003",
+            "category": "ambiguous",
+            "query": "Why does the application fail to connect after a system change?",
+            "answerable": true,
+            "vector_score": 0.36097025871276855,
+            "bm25_score": 6.558574390278346,
+            "rrf_score": 0.03225806451612903,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "AMB004",
+            "category": "ambiguous",
+            "query": "Why are requests failing during checkout?",
+            "answerable": true,
+            "vector_score": 0.37808603048324585,
+            "bm25_score": 8.540364179116025,
+            "rrf_score": 0.032266458495966696,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "AMB005",
+            "category": "ambiguous",
+            "query": "Why is the service running out of resources?",
+            "answerable": true,
+            "vector_score": null,
+            "bm25_score": 6.298347671695842,
+            "rrf_score": 0.01639344262295082,
+            "retrieval_agreement": false
+        },
+        {
+            "case_id": "AMB006",
+            "category": "ambiguous",
+            "query": "Why are API requests taking too long?",
+            "answerable": true,
+            "vector_score": 0.40473008155822754,
+            "bm25_score": 3.170147354030096,
+            "rrf_score": 0.03200204813108039,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "AMB007",
+            "category": "ambiguous",
+            "query": "Why is the application returning unexpected HTTP errors?",
+            "answerable": true,
+            "vector_score": 0.41623324155807495,
+            "bm25_score": 5.753085364785259,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "AMB008",
+            "category": "ambiguous",
+            "query": "Why are background jobs not completing successfully?",
+            "answerable": true,
+            "vector_score": 0.3537404537200928,
+            "bm25_score": 5.596117236882357,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "AMB009",
+            "category": "ambiguous",
+            "query": "Why does the application fail during startup or deployment?",
+            "answerable": true,
+            "vector_score": 0.43427252769470215,
+            "bm25_score": 8.182224480767657,
+            "rrf_score": 0.03252247488101534,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "AMB010",
+            "category": "ambiguous",
+            "query": "Why are authentication requests being rejected?",
+            "answerable": true,
+            "vector_score": 0.3035459518432617,
+            "bm25_score": 4.791151758129388,
+            "rrf_score": 0.032018442622950824,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "AMB011",
+            "category": "ambiguous",
+            "query": "Why are users experiencing session or token problems?",
+            "answerable": true,
+            "vector_score": 0.370724618434906,
+            "bm25_score": 7.936594544533181,
+            "rrf_score": 0.03252247488101534,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "AMB012",
+            "category": "ambiguous",
+            "query": "Why is the application not enforcing access restrictions correctly?",
+            "answerable": true,
+            "vector_score": 0.17638850212097168,
+            "bm25_score": 5.439705233141981,
+            "rrf_score": 0.031544957774465976,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "AMB013",
+            "category": "ambiguous",
+            "query": "Why are external service connections failing?",
+            "answerable": true,
+            "vector_score": 0.32190006971359253,
+            "bm25_score": 3.7380837468218564,
+            "rrf_score": 0.030834914611005692,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "AMB014",
+            "category": "ambiguous",
+            "query": "Why is the production environment behaving differently from expected?",
+            "answerable": true,
+            "vector_score": 0.18838632106781006,
+            "bm25_score": 4.73579714135423,
+            "rrf_score": 0.03125763125763126,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "AMB015",
+            "category": "ambiguous",
+            "query": "Why is the system experiencing storage or disk-related problems?",
+            "answerable": true,
+            "vector_score": 0.39688897132873535,
+            "bm25_score": 3.784881001631307,
+            "rrf_score": 0.032018442622950824,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "MULTI001",
+            "category": "multi_relevant",
+            "query": "Compare historical incidents caused by database connection leaks or insufficient connection capacity.",
+            "answerable": true,
+            "vector_score": 0.4444190263748169,
+            "bm25_score": 7.772306610889002,
+            "rrf_score": 0.03252247488101534,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "MULTI002",
+            "category": "multi_relevant",
+            "query": "Which incidents involved database connectivity failures caused by credentials, recovery behavior, or connection configuration?",
+            "answerable": true,
+            "vector_score": 0.5447932481765747,
+            "bm25_score": 8.038444076794509,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "MULTI003",
+            "category": "multi_relevant",
+            "query": "Which historical incidents involved database performance problems caused by inefficient queries, replication lag, or locking?",
+            "answerable": true,
+            "vector_score": 0.3963932991027832,
+            "bm25_score": 10.041852238925728,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "MULTI004",
+            "category": "multi_relevant",
+            "query": "Find incidents where exhausted memory or unbounded data structures affected application stability.",
+            "answerable": true,
+            "vector_score": 0.43781596422195435,
+            "bm25_score": 7.583383744922326,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "MULTI005",
+            "category": "multi_relevant",
+            "query": "Which incidents involved CPU, garbage collection, or thread contention affecting application performance?",
+            "answerable": true,
+            "vector_score": 0.36120736598968506,
+            "bm25_score": 7.973609538756916,
+            "rrf_score": 0.03252247488101534,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "MULTI006",
+            "category": "multi_relevant",
+            "query": "Find historical API incidents involving slow dependencies, request timeouts, or large response processing costs.",
+            "answerable": true,
+            "vector_score": 0.489906370639801,
+            "bm25_score": 9.18738797897041,
+            "rrf_score": 0.03252247488101534,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "MULTI007",
+            "category": "multi_relevant",
+            "query": "Which incidents involved HTTP errors caused by application request handling or incorrect API behavior?",
+            "answerable": true,
+            "vector_score": 0.4444957375526428,
+            "bm25_score": 11.05085605131681,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "MULTI008",
+            "category": "multi_relevant",
+            "query": "Find deployment incidents involving missing configuration or incorrect runtime settings.",
+            "answerable": true,
+            "vector_score": 0.44310545921325684,
+            "bm25_score": 6.651727508667408,
+            "rrf_score": 0.03225806451612903,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "MULTI009",
+            "category": "multi_relevant",
+            "query": "Which incidents were caused by incorrect deployment artifacts or deployment sequencing?",
+            "answerable": true,
+            "vector_score": 0.3874438405036926,
+            "bm25_score": 4.65024714689245,
+            "rrf_score": 0.03149801587301587,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "MULTI010",
+            "category": "multi_relevant",
+            "query": "Compare authentication incidents involving invalid signing keys, expired tokens, and incorrect token validation.",
+            "answerable": true,
+            "vector_score": 0.5243972539901733,
+            "bm25_score": 13.73060513997911,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "MULTI011",
+            "category": "multi_relevant",
+            "query": "Which incidents involved incorrect authentication or authorization configuration?",
+            "answerable": true,
+            "vector_score": 0.4313986301422119,
+            "bm25_score": 6.324749816610447,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "MULTI012",
+            "category": "multi_relevant",
+            "query": "Find incidents where security controls failed to protect access or prevent abusive login attempts.",
+            "answerable": true,
+            "vector_score": 0.44330453872680664,
+            "bm25_score": 8.181323749183232,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "MULTI013",
+            "category": "multi_relevant",
+            "query": "Which incidents involved disk capacity, disk I/O, or storage-related resource pressure?",
+            "answerable": true,
+            "vector_score": 0.4436250329017639,
+            "bm25_score": 12.788915549220585,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "MULTI014",
+            "category": "multi_relevant",
+            "query": "Compare incidents where connection pools or worker threads became bottlenecks under concurrent workloads.",
+            "answerable": true,
+            "vector_score": 0.4399048686027527,
+            "bm25_score": 7.070703251642911,
+            "rrf_score": 0.03252247488101534,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "MULTI015",
+            "category": "multi_relevant",
+            "query": "Which incidents involved failures in distributed service communication or external dependency connectivity?",
+            "answerable": true,
+            "vector_score": 0.3430202007293701,
+            "bm25_score": 7.302159080303815,
+            "rrf_score": 0.03252247488101534,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "UNANS001",
+            "category": "unanswerable",
+            "query": "What is the current monthly cloud hosting cost of the Payment Service?",
+            "answerable": false,
+            "vector_score": 0.2083207368850708,
+            "bm25_score": 5.001405960129224,
+            "rrf_score": 0.030886196246139225,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "UNANS002",
+            "category": "unanswerable",
+            "query": "Who is the engineer responsible for fixing incident INC001?",
+            "answerable": false,
+            "vector_score": 0.2671630382537842,
+            "bm25_score": 3.033951699730072,
+            "rrf_score": 0.03076923076923077,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "UNANS003",
+            "category": "unanswerable",
+            "query": "Which production server currently hosts the Order Service?",
+            "answerable": false,
+            "vector_score": 0.31231313943862915,
+            "bm25_score": 7.058751981802826,
+            "rrf_score": 0.03278688524590164,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "UNANS004",
+            "category": "unanswerable",
+            "query": "What will be the exact number of API requests tomorrow?",
+            "answerable": false,
+            "vector_score": 0.3171091079711914,
+            "bm25_score": 4.252680256389693,
+            "rrf_score": 0.03149801587301587,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "UNANS005",
+            "category": "unanswerable",
+            "query": "Which monitoring vendor does the organization currently purchase?",
+            "answerable": false,
+            "vector_score": 0.18960487842559814,
+            "bm25_score": 3.8374366276664564,
+            "rrf_score": 0.03125763125763126,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "UNANS006",
+            "category": "unanswerable",
+            "query": "What is the annual salary of the database administrator?",
+            "answerable": false,
+            "vector_score": 0.16330808401107788,
+            "bm25_score": 4.015855330167619,
+            "rrf_score": 0.030621785881252923,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "UNANS007",
+            "category": "unanswerable",
+            "query": "What is the current physical location of the production data center?",
+            "answerable": false,
+            "vector_score": null,
+            "bm25_score": 6.945485706384793,
+            "rrf_score": 0.01639344262295082,
+            "retrieval_agreement": false
+        },
+        {
+            "case_id": "UNANS008",
+            "category": "unanswerable",
+            "query": "Which employee approved the January 2026 deployment?",
+            "answerable": false,
+            "vector_score": 0.298691987991333,
+            "bm25_score": 3.7648156360544185,
+            "rrf_score": 0.03252247488101534,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "UNANS009",
+            "category": "unanswerable",
+            "query": "What is the exact hardware purchase price for the database servers?",
+            "answerable": false,
+            "vector_score": 0.31826460361480713,
+            "bm25_score": 5.04496213778944,
+            "rrf_score": 0.032266458495966696,
+            "retrieval_agreement": true
+        },
+        {
+            "case_id": "UNANS010",
+            "category": "unanswerable",
+            "query": "Predict the precise date of the next production outage.",
+            "answerable": false,
+            "vector_score": 0.23164796829223633,
+            "bm25_score": 3.663675867012905,
+            "rrf_score": 0.029211087420042643,
+            "retrieval_agreement": true
+        }
+    ]
+}

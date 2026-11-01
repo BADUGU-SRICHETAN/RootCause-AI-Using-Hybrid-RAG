@@ -1,0 +1,852 @@
+[
+    {
+        "case_id": "ORIG001",
+        "category": "original",
+        "query": "Why are payment requests failing because the database connection pool is exhausted?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC001"
+        ]
+    },
+    {
+        "case_id": "ORIG002",
+        "category": "original",
+        "query": "Why are database queries taking too long when retrieving order history?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC002"
+        ]
+    },
+    {
+        "case_id": "ORIG003",
+        "category": "original",
+        "query": "Why can't the Inventory Service authenticate with its database after credentials were rotated?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC003"
+        ]
+    },
+    {
+        "case_id": "ORIG004",
+        "category": "original",
+        "query": "Why are scheduled reports failing because the database has too many open connections?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC004"
+        ]
+    },
+    {
+        "case_id": "ORIG005",
+        "category": "original",
+        "query": "What causes database deadlocks during concurrent checkout transactions?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC005"
+        ]
+    },
+    {
+        "case_id": "ORIG006",
+        "category": "original",
+        "query": "Why are recently updated products missing from catalog reads?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC006"
+        ]
+    },
+    {
+        "case_id": "ORIG007",
+        "category": "original",
+        "query": "Why does the User Service receive connection refused errors after a database restart?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC007"
+        ]
+    },
+    {
+        "case_id": "ORIG008",
+        "category": "original",
+        "query": "Why are database writes failing because the storage volume is full?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC008"
+        ]
+    },
+    {
+        "case_id": "ORIG009",
+        "category": "original",
+        "query": "Why is the Billing Service experiencing slow transaction commits?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC009"
+        ]
+    },
+    {
+        "case_id": "ORIG010",
+        "category": "original",
+        "query": "Why does database access gradually stop working in the Notification Service background worker?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC010"
+        ]
+    },
+    {
+        "case_id": "ORIG011",
+        "category": "original",
+        "query": "Why does the Customer API throw a NullPointerException when an optional address is missing?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC011"
+        ]
+    },
+    {
+        "case_id": "ORIG012",
+        "category": "original",
+        "query": "Why does the Search API return HTTP 504 during traffic spikes?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC012"
+        ]
+    },
+    {
+        "case_id": "ORIG013",
+        "category": "original",
+        "query": "Why do malformed JSON requests produce HTTP 500 instead of HTTP 400?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC013"
+        ]
+    },
+    {
+        "case_id": "ORIG014",
+        "category": "original",
+        "query": "Why are legitimate API clients receiving HTTP 429 despite sending very few requests?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC014"
+        ]
+    },
+    {
+        "case_id": "ORIG015",
+        "category": "original",
+        "query": "Why are browser requests blocked by CORS while direct server requests work?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC015"
+        ]
+    },
+    {
+        "case_id": "ORIG016",
+        "category": "original",
+        "query": "Why does product pagination fail on the final page with an IndexOutOfBoundsException?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC016"
+        ]
+    },
+    {
+        "case_id": "ORIG017",
+        "category": "original",
+        "query": "Why does event serialization fail when the application processes Java timestamps?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC017"
+        ]
+    },
+    {
+        "case_id": "ORIG018",
+        "category": "original",
+        "query": "Why does the Shipping API return HTTP 503 when its carrier dependency becomes unavailable?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC018"
+        ]
+    },
+    {
+        "case_id": "ORIG019",
+        "category": "original",
+        "query": "Why are large document uploads rejected with HTTP 413?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC019"
+        ]
+    },
+    {
+        "case_id": "ORIG020",
+        "category": "original",
+        "query": "Why do admin update requests fail with HTTP 405 after the client changed from PUT to PATCH?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC020"
+        ]
+    },
+    {
+        "case_id": "ORIG021",
+        "category": "original",
+        "query": "Why does the User Service crash with Java heap space errors after running for several hours?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC021"
+        ]
+    },
+    {
+        "case_id": "ORIG022",
+        "category": "original",
+        "query": "Why is CPU utilization above 95 percent in the Pricing Service?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC022"
+        ]
+    },
+    {
+        "case_id": "ORIG023",
+        "category": "original",
+        "query": "Why are image processing tasks rejected when the application experiences concurrent load?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC023"
+        ]
+    },
+    {
+        "case_id": "ORIG024",
+        "category": "original",
+        "query": "Why is the Recommendation Service experiencing long garbage collection pauses?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC024"
+        ]
+    },
+    {
+        "case_id": "ORIG025",
+        "category": "original",
+        "query": "Why do application instances repeatedly restart because startup takes too long?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC025"
+        ]
+    },
+    {
+        "case_id": "ORIG026",
+        "category": "original",
+        "query": "Why is the Audit API slow when returning large event responses?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC026"
+        ]
+    },
+    {
+        "case_id": "ORIG027",
+        "category": "original",
+        "query": "Why does worker memory increase continuously when downstream processing is unavailable?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC027"
+        ]
+    },
+    {
+        "case_id": "ORIG028",
+        "category": "original",
+        "query": "Why are metrics export requests waiting for available HTTP connections?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC028"
+        ]
+    },
+    {
+        "case_id": "ORIG029",
+        "category": "original",
+        "query": "Why do certain long user inputs cause extremely slow regular expression processing?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC029"
+        ]
+    },
+    {
+        "case_id": "ORIG030",
+        "category": "original",
+        "query": "Why is log ingestion falling behind during compression and log rotation?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC030"
+        ]
+    },
+    {
+        "case_id": "PARA001",
+        "category": "paraphrased",
+        "query": "How can insufficient database connections cause payment failures?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC001"
+        ]
+    },
+    {
+        "case_id": "PARA002",
+        "category": "paraphrased",
+        "query": "What makes order history database searches exceed their time limit?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC002"
+        ]
+    },
+    {
+        "case_id": "PARA003",
+        "category": "paraphrased",
+        "query": "Why does Inventory Service fail to log in to its database after a password change?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC003"
+        ]
+    },
+    {
+        "case_id": "PARA004",
+        "category": "paraphrased",
+        "query": "What could cause reporting jobs to consume all available database sessions?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC004"
+        ]
+    },
+    {
+        "case_id": "PARA005",
+        "category": "paraphrased",
+        "query": "Why do simultaneous checkout operations block one another?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC005"
+        ]
+    },
+    {
+        "case_id": "PARA006",
+        "category": "paraphrased",
+        "query": "What can make a database read replica fall behind the primary database?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC006"
+        ]
+    },
+    {
+        "case_id": "PARA007",
+        "category": "paraphrased",
+        "query": "Why does User Service fail to reconnect when the database comes back online?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC007"
+        ]
+    },
+    {
+        "case_id": "PARA008",
+        "category": "paraphrased",
+        "query": "What happens when temporary database files consume all available disk space?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC008"
+        ]
+    },
+    {
+        "case_id": "PARA009",
+        "category": "paraphrased",
+        "query": "Why might billing transactions take unusually long to commit?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC009"
+        ]
+    },
+    {
+        "case_id": "PARA010",
+        "category": "paraphrased",
+        "query": "What causes background notification workers to hold database connections indefinitely?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC010"
+        ]
+    },
+    {
+        "case_id": "PARA011",
+        "category": "paraphrased",
+        "query": "Why does Customer API crash when an address field is null?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC011"
+        ]
+    },
+    {
+        "case_id": "PARA012",
+        "category": "paraphrased",
+        "query": "What makes Search API requests wait too long for the recommendation service?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC012"
+        ]
+    },
+    {
+        "case_id": "PARA013",
+        "category": "paraphrased",
+        "query": "Why does the API return an internal error for malformed JSON input?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC013"
+        ]
+    },
+    {
+        "case_id": "PARA014",
+        "category": "paraphrased",
+        "query": "Why are API clients being throttled even when their request rates are low?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC014"
+        ]
+    },
+    {
+        "case_id": "PARA015",
+        "category": "paraphrased",
+        "query": "What configuration prevents browser OPTIONS requests from passing through the gateway?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC015"
+        ]
+    },
+    {
+        "case_id": "PARA016",
+        "category": "paraphrased",
+        "query": "Why does Product API fail when a requested page contains fewer items than expected?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC016"
+        ]
+    },
+    {
+        "case_id": "PARA017",
+        "category": "paraphrased",
+        "query": "What causes JSON serialization to fail when an event contains a Java timestamp?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC017"
+        ]
+    },
+    {
+        "case_id": "PARA018",
+        "category": "paraphrased",
+        "query": "Why does Shipping API expose connection failures from an unavailable dependency?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC018"
+        ]
+    },
+    {
+        "case_id": "PARA019",
+        "category": "paraphrased",
+        "query": "Why are document uploads rejected when their size is within the documented limit?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC019"
+        ]
+    },
+    {
+        "case_id": "PARA020",
+        "category": "paraphrased",
+        "query": "What prevents Admin API clients from updating resources using PATCH?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC020"
+        ]
+    },
+    {
+        "case_id": "AMB001",
+        "category": "ambiguous",
+        "query": "Why is the application unable to obtain a connection?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC001",
+            "INC004",
+            "INC010"
+        ]
+    },
+    {
+        "case_id": "AMB002",
+        "category": "ambiguous",
+        "query": "Why are database operations becoming slow?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC002",
+            "INC006",
+            "INC009"
+        ]
+    },
+    {
+        "case_id": "AMB003",
+        "category": "ambiguous",
+        "query": "Why does the application fail to connect after a system change?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC003",
+            "INC007"
+        ]
+    },
+    {
+        "case_id": "AMB004",
+        "category": "ambiguous",
+        "query": "Why are requests failing during checkout?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC001",
+            "INC005",
+            "INC032",
+            "INC040"
+        ]
+    },
+    {
+        "case_id": "AMB005",
+        "category": "ambiguous",
+        "query": "Why is the service running out of resources?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC008",
+            "INC021",
+            "INC027",
+            "INC037"
+        ]
+    },
+    {
+        "case_id": "AMB006",
+        "category": "ambiguous",
+        "query": "Why are API requests taking too long?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC012",
+            "INC022",
+            "INC026",
+            "INC029"
+        ]
+    },
+    {
+        "case_id": "AMB007",
+        "category": "ambiguous",
+        "query": "Why is the application returning unexpected HTTP errors?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC013",
+            "INC016",
+            "INC018",
+            "INC020"
+        ]
+    },
+    {
+        "case_id": "AMB008",
+        "category": "ambiguous",
+        "query": "Why are background jobs not completing successfully?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC010",
+            "INC023",
+            "INC027"
+        ]
+    },
+    {
+        "case_id": "AMB009",
+        "category": "ambiguous",
+        "query": "Why does the application fail during startup or deployment?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC025",
+            "INC032",
+            "INC036",
+            "INC038"
+        ]
+    },
+    {
+        "case_id": "AMB010",
+        "category": "ambiguous",
+        "query": "Why are authentication requests being rejected?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC003",
+            "INC041",
+            "INC043",
+            "INC046"
+        ]
+    },
+    {
+        "case_id": "AMB011",
+        "category": "ambiguous",
+        "query": "Why are users experiencing session or token problems?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC042",
+            "INC045",
+            "INC048",
+            "INC050"
+        ]
+    },
+    {
+        "case_id": "AMB012",
+        "category": "ambiguous",
+        "query": "Why is the application not enforcing access restrictions correctly?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC044",
+            "INC049"
+        ]
+    },
+    {
+        "case_id": "AMB013",
+        "category": "ambiguous",
+        "query": "Why are external service connections failing?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC012",
+            "INC018",
+            "INC043"
+        ]
+    },
+    {
+        "case_id": "AMB014",
+        "category": "ambiguous",
+        "query": "Why is the production environment behaving differently from expected?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC031",
+            "INC035",
+            "INC040",
+            "INC048"
+        ]
+    },
+    {
+        "case_id": "AMB015",
+        "category": "ambiguous",
+        "query": "Why is the system experiencing storage or disk-related problems?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC008",
+            "INC030"
+        ]
+    },
+    {
+        "case_id": "MULTI001",
+        "category": "multi_relevant",
+        "query": "Compare historical incidents caused by database connection leaks or insufficient connection capacity.",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC001",
+            "INC004",
+            "INC010"
+        ]
+    },
+    {
+        "case_id": "MULTI002",
+        "category": "multi_relevant",
+        "query": "Which incidents involved database connectivity failures caused by credentials, recovery behavior, or connection configuration?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC003",
+            "INC007"
+        ]
+    },
+    {
+        "case_id": "MULTI003",
+        "category": "multi_relevant",
+        "query": "Which historical incidents involved database performance problems caused by inefficient queries, replication lag, or locking?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC002",
+            "INC006",
+            "INC009"
+        ]
+    },
+    {
+        "case_id": "MULTI004",
+        "category": "multi_relevant",
+        "query": "Find incidents where exhausted memory or unbounded data structures affected application stability.",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC021",
+            "INC027",
+            "INC037"
+        ]
+    },
+    {
+        "case_id": "MULTI005",
+        "category": "multi_relevant",
+        "query": "Which incidents involved CPU, garbage collection, or thread contention affecting application performance?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC022",
+            "INC023",
+            "INC024"
+        ]
+    },
+    {
+        "case_id": "MULTI006",
+        "category": "multi_relevant",
+        "query": "Find historical API incidents involving slow dependencies, request timeouts, or large response processing costs.",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC012",
+            "INC026"
+        ]
+    },
+    {
+        "case_id": "MULTI007",
+        "category": "multi_relevant",
+        "query": "Which incidents involved HTTP errors caused by application request handling or incorrect API behavior?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC013",
+            "INC016",
+            "INC020"
+        ]
+    },
+    {
+        "case_id": "MULTI008",
+        "category": "multi_relevant",
+        "query": "Find deployment incidents involving missing configuration or incorrect runtime settings.",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC031",
+            "INC034",
+            "INC036"
+        ]
+    },
+    {
+        "case_id": "MULTI009",
+        "category": "multi_relevant",
+        "query": "Which incidents were caused by incorrect deployment artifacts or deployment sequencing?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC032",
+            "INC033"
+        ]
+    },
+    {
+        "case_id": "MULTI010",
+        "category": "multi_relevant",
+        "query": "Compare authentication incidents involving invalid signing keys, expired tokens, and incorrect token validation.",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC041",
+            "INC042",
+            "INC050"
+        ]
+    },
+    {
+        "case_id": "MULTI011",
+        "category": "multi_relevant",
+        "query": "Which incidents involved incorrect authentication or authorization configuration?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC041",
+            "INC046",
+            "INC048"
+        ]
+    },
+    {
+        "case_id": "MULTI012",
+        "category": "multi_relevant",
+        "query": "Find incidents where security controls failed to protect access or prevent abusive login attempts.",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC044",
+            "INC049"
+        ]
+    },
+    {
+        "case_id": "MULTI013",
+        "category": "multi_relevant",
+        "query": "Which incidents involved disk capacity, disk I/O, or storage-related resource pressure?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC008",
+            "INC030"
+        ]
+    },
+    {
+        "case_id": "MULTI014",
+        "category": "multi_relevant",
+        "query": "Compare incidents where connection pools or worker threads became bottlenecks under concurrent workloads.",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC001",
+            "INC023",
+            "INC028"
+        ]
+    },
+    {
+        "case_id": "MULTI015",
+        "category": "multi_relevant",
+        "query": "Which incidents involved failures in distributed service communication or external dependency connectivity?",
+        "answerable": true,
+        "relevant_incident_ids": [
+            "INC012",
+            "INC018",
+            "INC043"
+        ]
+    },
+    {
+        "case_id": "UNANS001",
+        "category": "unanswerable",
+        "query": "What is the current monthly cloud hosting cost of the Payment Service?",
+        "answerable": false,
+        "relevant_incident_ids": []
+    },
+    {
+        "case_id": "UNANS002",
+        "category": "unanswerable",
+        "query": "Who is the engineer responsible for fixing incident INC001?",
+        "answerable": false,
+        "relevant_incident_ids": []
+    },
+    {
+        "case_id": "UNANS003",
+        "category": "unanswerable",
+        "query": "Which production server currently hosts the Order Service?",
+        "answerable": false,
+        "relevant_incident_ids": []
+    },
+    {
+        "case_id": "UNANS004",
+        "category": "unanswerable",
+        "query": "What will be the exact number of API requests tomorrow?",
+        "answerable": false,
+        "relevant_incident_ids": []
+    },
+    {
+        "case_id": "UNANS005",
+        "category": "unanswerable",
+        "query": "Which monitoring vendor does the organization currently purchase?",
+        "answerable": false,
+        "relevant_incident_ids": []
+    },
+    {
+        "case_id": "UNANS006",
+        "category": "unanswerable",
+        "query": "What is the annual salary of the database administrator?",
+        "answerable": false,
+        "relevant_incident_ids": []
+    },
+    {
+        "case_id": "UNANS007",
+        "category": "unanswerable",
+        "query": "What is the current physical location of the production data center?",
+        "answerable": false,
+        "relevant_incident_ids": []
+    },
+    {
+        "case_id": "UNANS008",
+        "category": "unanswerable",
+        "query": "Which employee approved the January 2026 deployment?",
+        "answerable": false,
+        "relevant_incident_ids": []
+    },
+    {
+        "case_id": "UNANS009",
+        "category": "unanswerable",
+        "query": "What is the exact hardware purchase price for the database servers?",
+        "answerable": false,
+        "relevant_incident_ids": []
+    },
+    {
+        "case_id": "UNANS010",
+        "category": "unanswerable",
+        "query": "Predict the precise date of the next production outage.",
+        "answerable": false,
+        "relevant_incident_ids": []
+    }
+]

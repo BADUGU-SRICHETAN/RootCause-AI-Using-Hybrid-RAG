@@ -1,0 +1,366 @@
+[
+    {
+        "case_id": "AMB002",
+        "query": "Why are database operations becoming slow?",
+        "original_vector_score": 0.2239900827407837,
+        "expected_incident_ids": [
+            "INC002",
+            "INC009",
+            "INC006"
+        ],
+        "retrieved_incident_ids": [
+            "INC006",
+            "INC023",
+            "INC008"
+        ],
+        "matched_incident_ids": [
+            "INC006"
+        ],
+        "retrieved_evidence": [
+            {
+                "rank": 1,
+                "incident_id": "INC006",
+                "vector_score": 0.2239900827407837,
+                "bm25_score": 3.84369146917521,
+                "rrf_score": 0.031099324975891997,
+                "retrieval_ranks": {
+                    "bm25": 1,
+                    "vector": 8
+                }
+            },
+            {
+                "rank": 2,
+                "incident_id": "INC008",
+                "vector_score": 0.25159263610839844,
+                "bm25_score": 2.4508669419124836,
+                "rrf_score": 0.030536130536130537,
+                "retrieval_ranks": {
+                    "bm25": 5,
+                    "vector": 6
+                }
+            },
+            {
+                "rank": 3,
+                "incident_id": "INC023",
+                "vector_score": 0.2208007574081421,
+                "bm25_score": 3.503641673471286,
+                "rrf_score": 0.0304147465437788,
+                "retrieval_ranks": {
+                    "bm25": 2,
+                    "vector": 10
+                }
+            }
+        ]
+    },
+    {
+        "case_id": "AMB005",
+        "query": "Why is the service running out of resources?",
+        "original_vector_score": null,
+        "expected_incident_ids": [
+            "INC021",
+            "INC027",
+            "INC037",
+            "INC008"
+        ],
+        "retrieved_incident_ids": [
+            "INC021",
+            "INC043",
+            "INC016"
+        ],
+        "matched_incident_ids": [
+            "INC021"
+        ],
+        "retrieved_evidence": [
+            {
+                "rank": 1,
+                "incident_id": "INC016",
+                "vector_score": null,
+                "bm25_score": 6.298347671695842,
+                "rrf_score": 0.01639344262295082,
+                "retrieval_ranks": {
+                    "bm25": 1
+                }
+            },
+            {
+                "rank": 2,
+                "incident_id": "INC021",
+                "vector_score": 0.4178915023803711,
+                "bm25_score": null,
+                "rrf_score": 0.01639344262295082,
+                "retrieval_ranks": {
+                    "vector": 1
+                }
+            },
+            {
+                "rank": 3,
+                "incident_id": "INC043",
+                "vector_score": null,
+                "bm25_score": 5.655473764434031,
+                "rrf_score": 0.016129032258064516,
+                "retrieval_ranks": {
+                    "bm25": 2
+                }
+            }
+        ]
+    },
+    {
+        "case_id": "AMB010",
+        "query": "Why are authentication requests being rejected?",
+        "original_vector_score": 0.3035459518432617,
+        "expected_incident_ids": [
+            "INC041",
+            "INC003",
+            "INC046",
+            "INC043"
+        ],
+        "retrieved_incident_ids": [
+            "INC044",
+            "INC015",
+            "INC031"
+        ],
+        "matched_incident_ids": [],
+        "retrieved_evidence": [
+            {
+                "rank": 1,
+                "incident_id": "INC015",
+                "vector_score": 0.3035459518432617,
+                "bm25_score": 4.791151758129388,
+                "rrf_score": 0.032018442622950824,
+                "retrieval_ranks": {
+                    "bm25": 1,
+                    "vector": 4
+                }
+            },
+            {
+                "rank": 2,
+                "incident_id": "INC044",
+                "vector_score": 0.38855040073394775,
+                "bm25_score": 2.1029727343021123,
+                "rrf_score": 0.030621785881252923,
+                "retrieval_ranks": {
+                    "bm25": 9,
+                    "vector": 2
+                }
+            },
+            {
+                "rank": 3,
+                "incident_id": "INC031",
+                "vector_score": 0.2825796604156494,
+                "bm25_score": 4.423892659048583,
+                "rrf_score": 0.03057889822595705,
+                "retrieval_ranks": {
+                    "bm25": 3,
+                    "vector": 8
+                }
+            }
+        ]
+    },
+    {
+        "case_id": "AMB012",
+        "query": "Why is the application not enforcing access restrictions correctly?",
+        "original_vector_score": 0.17638850212097168,
+        "expected_incident_ids": [
+            "INC044",
+            "INC049"
+        ],
+        "retrieved_incident_ids": [
+            "INC007",
+            "INC047",
+            "INC042"
+        ],
+        "matched_incident_ids": [],
+        "retrieved_evidence": [
+            {
+                "rank": 1,
+                "incident_id": "INC047",
+                "vector_score": 0.17638850212097168,
+                "bm25_score": 5.439705233141981,
+                "rrf_score": 0.031544957774465976,
+                "retrieval_ranks": {
+                    "bm25": 1,
+                    "vector": 6
+                }
+            },
+            {
+                "rank": 2,
+                "incident_id": "INC042",
+                "vector_score": 0.1845722794532776,
+                "bm25_score": 3.4243939096485807,
+                "rrf_score": 0.030536130536130537,
+                "retrieval_ranks": {
+                    "bm25": 6,
+                    "vector": 5
+                }
+            },
+            {
+                "rank": 3,
+                "incident_id": "INC007",
+                "vector_score": 0.13735955953598022,
+                "bm25_score": 3.320925130011509,
+                "rrf_score": 0.028991596638655463,
+                "retrieval_ranks": {
+                    "bm25": 8,
+                    "vector": 10
+                }
+            }
+        ]
+    },
+    {
+        "case_id": "AMB013",
+        "query": "Why are external service connections failing?",
+        "original_vector_score": 0.32190006971359253,
+        "expected_incident_ids": [
+            "INC018",
+            "INC012",
+            "INC043"
+        ],
+        "retrieved_incident_ids": [
+            "INC010",
+            "INC046",
+            "INC025"
+        ],
+        "matched_incident_ids": [],
+        "retrieved_evidence": [
+            {
+                "rank": 1,
+                "incident_id": "INC046",
+                "vector_score": 0.32190006971359253,
+                "bm25_score": 3.7380837468218564,
+                "rrf_score": 0.030834914611005692,
+                "retrieval_ranks": {
+                    "bm25": 2,
+                    "vector": 8
+                }
+            },
+            {
+                "rank": 2,
+                "incident_id": "INC010",
+                "vector_score": 0.3696172833442688,
+                "bm25_score": 3.4227144099838345,
+                "rrf_score": 0.030834914611005692,
+                "retrieval_ranks": {
+                    "bm25": 8,
+                    "vector": 2
+                }
+            },
+            {
+                "rank": 3,
+                "incident_id": "INC025",
+                "vector_score": 0.3127039074897766,
+                "bm25_score": 3.625481034979436,
+                "rrf_score": 0.030158730158730156,
+                "retrieval_ranks": {
+                    "bm25": 3,
+                    "vector": 10
+                }
+            }
+        ]
+    },
+    {
+        "case_id": "AMB014",
+        "query": "Why is the production environment behaving differently from expected?",
+        "original_vector_score": 0.18838632106781006,
+        "expected_incident_ids": [
+            "INC035",
+            "INC040",
+            "INC048",
+            "INC031"
+        ],
+        "retrieved_incident_ids": [
+            "INC006",
+            "INC022",
+            "INC031"
+        ],
+        "matched_incident_ids": [
+            "INC031"
+        ],
+        "retrieved_evidence": [
+            {
+                "rank": 1,
+                "incident_id": "INC006",
+                "vector_score": 0.18838632106781006,
+                "bm25_score": 4.73579714135423,
+                "rrf_score": 0.03125763125763126,
+                "retrieval_ranks": {
+                    "bm25": 3,
+                    "vector": 5
+                }
+            },
+            {
+                "rank": 2,
+                "incident_id": "INC031",
+                "vector_score": 0.22602951526641846,
+                "bm25_score": 3.7113421466876373,
+                "rrf_score": 0.030679156908665108,
+                "retrieval_ranks": {
+                    "bm25": 10,
+                    "vector": 1
+                }
+            },
+            {
+                "rank": 3,
+                "incident_id": "INC022",
+                "vector_score": 0.1728103756904602,
+                "bm25_score": 4.6718142932386595,
+                "rrf_score": 0.029877369007803793,
+                "retrieval_ranks": {
+                    "bm25": 5,
+                    "vector": 9
+                }
+            }
+        ]
+    },
+    {
+        "case_id": "MULTI015",
+        "query": "Which incidents involved failures in distributed service communication or external dependency connectivity?",
+        "original_vector_score": 0.3430202007293701,
+        "expected_incident_ids": [
+            "INC018",
+            "INC012",
+            "INC043"
+        ],
+        "retrieved_incident_ids": [
+            "INC010",
+            "INC018",
+            "INC025"
+        ],
+        "matched_incident_ids": [
+            "INC018"
+        ],
+        "retrieved_evidence": [
+            {
+                "rank": 1,
+                "incident_id": "INC025",
+                "vector_score": 0.3430202007293701,
+                "bm25_score": 7.302159080303815,
+                "rrf_score": 0.03252247488101534,
+                "retrieval_ranks": {
+                    "bm25": 1,
+                    "vector": 2
+                }
+            },
+            {
+                "rank": 2,
+                "incident_id": "INC018",
+                "vector_score": 0.35278308391571045,
+                "bm25_score": 4.070612442308357,
+                "rrf_score": 0.032018442622950824,
+                "retrieval_ranks": {
+                    "bm25": 4,
+                    "vector": 1
+                }
+            },
+            {
+                "rank": 3,
+                "incident_id": "INC010",
+                "vector_score": 0.31473231315612793,
+                "bm25_score": 2.2881482060646885,
+                "rrf_score": 0.030158730158730156,
+                "retrieval_ranks": {
+                    "bm25": 10,
+                    "vector": 3
+                }
+            }
+        ]
+    }
+]

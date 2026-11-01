@@ -1,0 +1,734 @@
+{
+    "metrics": {
+        "total": 90,
+        "TP": 80,
+        "FP": 0,
+        "TN": 10,
+        "FN": 0,
+        "accuracy": 1.0,
+        "recall": 1.0,
+        "specificity": 1.0
+    },
+    "results": [
+        {
+            "case_id": "ORIG001",
+            "query": "Why are payment requests failing because the database connection pool is exhausted?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "ORIG002",
+            "query": "Why are database queries taking too long when retrieving order history?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "ORIG003",
+            "query": "Why can't the Inventory Service authenticate with its database after credentials were rotated?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "ORIG004",
+            "query": "Why are scheduled reports failing because the database has too many open connections?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "ORIG005",
+            "query": "What causes database deadlocks during concurrent checkout transactions?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "ORIG006",
+            "query": "Why are recently updated products missing from catalog reads?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "ORIG007",
+            "query": "Why does the User Service receive connection refused errors after a database restart?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "ORIG008",
+            "query": "Why are database writes failing because the storage volume is full?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "ORIG009",
+            "query": "Why is the Billing Service experiencing slow transaction commits?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "ORIG010",
+            "query": "Why does database access gradually stop working in the Notification Service background worker?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "ORIG011",
+            "query": "Why does the Customer API throw a NullPointerException when an optional address is missing?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "ORIG012",
+            "query": "Why does the Search API return HTTP 504 during traffic spikes?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "ORIG013",
+            "query": "Why do malformed JSON requests produce HTTP 500 instead of HTTP 400?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "ORIG014",
+            "query": "Why are legitimate API clients receiving HTTP 429 despite sending very few requests?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "ORIG015",
+            "query": "Why are browser requests blocked by CORS while direct server requests work?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "ORIG016",
+            "query": "Why does product pagination fail on the final page with an IndexOutOfBoundsException?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "ORIG017",
+            "query": "Why does event serialization fail when the application processes Java timestamps?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "ORIG018",
+            "query": "Why does the Shipping API return HTTP 503 when its carrier dependency becomes unavailable?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "ORIG019",
+            "query": "Why are large document uploads rejected with HTTP 413?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "ORIG020",
+            "query": "Why do admin update requests fail with HTTP 405 after the client changed from PUT to PATCH?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "ORIG021",
+            "query": "Why does the User Service crash with Java heap space errors after running for several hours?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "ORIG022",
+            "query": "Why is CPU utilization above 95 percent in the Pricing Service?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "ORIG023",
+            "query": "Why are image processing tasks rejected when the application experiences concurrent load?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "ORIG024",
+            "query": "Why is the Recommendation Service experiencing long garbage collection pauses?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "ORIG025",
+            "query": "Why do application instances repeatedly restart because startup takes too long?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "ORIG026",
+            "query": "Why is the Audit API slow when returning large event responses?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "ORIG027",
+            "query": "Why does worker memory increase continuously when downstream processing is unavailable?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "ORIG028",
+            "query": "Why are metrics export requests waiting for available HTTP connections?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "ORIG029",
+            "query": "Why do certain long user inputs cause extremely slow regular expression processing?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "ORIG030",
+            "query": "Why is log ingestion falling behind during compression and log rotation?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "PARA001",
+            "query": "How can insufficient database connections cause payment failures?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "PARA002",
+            "query": "What makes order history database searches exceed their time limit?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "PARA003",
+            "query": "Why does Inventory Service fail to log in to its database after a password change?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "PARA004",
+            "query": "What could cause reporting jobs to consume all available database sessions?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "PARA005",
+            "query": "Why do simultaneous checkout operations block one another?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "PARA006",
+            "query": "What can make a database read replica fall behind the primary database?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "PARA007",
+            "query": "Why does User Service fail to reconnect when the database comes back online?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "PARA008",
+            "query": "What happens when temporary database files consume all available disk space?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "PARA009",
+            "query": "Why might billing transactions take unusually long to commit?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "PARA010",
+            "query": "What causes background notification workers to hold database connections indefinitely?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "PARA011",
+            "query": "Why does Customer API crash when an address field is null?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "PARA012",
+            "query": "What makes Search API requests wait too long for the recommendation service?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "PARA013",
+            "query": "Why does the API return an internal error for malformed JSON input?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "PARA014",
+            "query": "Why are API clients being throttled even when their request rates are low?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "PARA015",
+            "query": "What configuration prevents browser OPTIONS requests from passing through the gateway?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "PARA016",
+            "query": "Why does Product API fail when a requested page contains fewer items than expected?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "PARA017",
+            "query": "What causes JSON serialization to fail when an event contains a Java timestamp?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "PARA018",
+            "query": "Why does Shipping API expose connection failures from an unavailable dependency?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "PARA019",
+            "query": "Why are document uploads rejected when their size is within the documented limit?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "PARA020",
+            "query": "What prevents Admin API clients from updating resources using PATCH?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "AMB001",
+            "query": "Why is the application unable to obtain a connection?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "AMB002",
+            "query": "Why are database operations becoming slow?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "AMB003",
+            "query": "Why does the application fail to connect after a system change?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "AMB004",
+            "query": "Why are requests failing during checkout?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "AMB005",
+            "query": "Why is the service running out of resources?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "AMB006",
+            "query": "Why are API requests taking too long?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "AMB007",
+            "query": "Why is the application returning unexpected HTTP errors?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "AMB008",
+            "query": "Why are background jobs not completing successfully?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "AMB009",
+            "query": "Why does the application fail during startup or deployment?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "AMB010",
+            "query": "Why are authentication requests being rejected?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "AMB011",
+            "query": "Why are users experiencing session or token problems?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "AMB012",
+            "query": "Why is the application not enforcing access restrictions correctly?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "AMB013",
+            "query": "Why are external service connections failing?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "AMB014",
+            "query": "Why is the production environment behaving differently from expected?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "AMB015",
+            "query": "Why is the system experiencing storage or disk-related problems?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "MULTI001",
+            "query": "Compare historical incidents caused by database connection leaks or insufficient connection capacity.",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "MULTI002",
+            "query": "Which incidents involved database connectivity failures caused by credentials, recovery behavior, or connection configuration?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "MULTI003",
+            "query": "Which historical incidents involved database performance problems caused by inefficient queries, replication lag, or locking?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "MULTI004",
+            "query": "Find incidents where exhausted memory or unbounded data structures affected application stability.",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "MULTI005",
+            "query": "Which incidents involved CPU, garbage collection, or thread contention affecting application performance?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "MULTI006",
+            "query": "Find historical API incidents involving slow dependencies, request timeouts, or large response processing costs.",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "MULTI007",
+            "query": "Which incidents involved HTTP errors caused by application request handling or incorrect API behavior?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "MULTI008",
+            "query": "Find deployment incidents involving missing configuration or incorrect runtime settings.",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "MULTI009",
+            "query": "Which incidents were caused by incorrect deployment artifacts or deployment sequencing?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "MULTI010",
+            "query": "Compare authentication incidents involving invalid signing keys, expired tokens, and incorrect token validation.",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "MULTI011",
+            "query": "Which incidents involved incorrect authentication or authorization configuration?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "MULTI012",
+            "query": "Find incidents where security controls failed to protect access or prevent abusive login attempts.",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "MULTI013",
+            "query": "Which incidents involved disk capacity, disk I/O, or storage-related resource pressure?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "MULTI014",
+            "query": "Compare incidents where connection pools or worker threads became bottlenecks under concurrent workloads.",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "MULTI015",
+            "query": "Which incidents involved failures in distributed service communication or external dependency connectivity?",
+            "actual_answerable": true,
+            "predicted_answerable": true,
+            "category": "historical_incident_investigation",
+            "matched_pattern": null
+        },
+        {
+            "case_id": "UNANS001",
+            "query": "What is the current monthly cloud hosting cost of the Payment Service?",
+            "actual_answerable": false,
+            "predicted_answerable": false,
+            "category": "financial_information",
+            "matched_pattern": "\\bcost\\b"
+        },
+        {
+            "case_id": "UNANS002",
+            "query": "Who is the engineer responsible for fixing incident INC001?",
+            "actual_answerable": false,
+            "predicted_answerable": false,
+            "category": "employee_information",
+            "matched_pattern": "\\bwho is the engineer responsible for\\b"
+        },
+        {
+            "case_id": "UNANS003",
+            "query": "Which production server currently hosts the Order Service?",
+            "actual_answerable": false,
+            "predicted_answerable": false,
+            "category": "infrastructure_inventory",
+            "matched_pattern": "\\bwhich production server\\b"
+        },
+        {
+            "case_id": "UNANS004",
+            "query": "What will be the exact number of API requests tomorrow?",
+            "actual_answerable": false,
+            "predicted_answerable": false,
+            "category": "future_prediction",
+            "matched_pattern": "\\btomorrow\\b"
+        },
+        {
+            "case_id": "UNANS005",
+            "query": "Which monitoring vendor does the organization currently purchase?",
+            "actual_answerable": false,
+            "predicted_answerable": false,
+            "category": "vendor_information",
+            "matched_pattern": "\\bmonitoring vendor\\b"
+        },
+        {
+            "case_id": "UNANS006",
+            "query": "What is the annual salary of the database administrator?",
+            "actual_answerable": false,
+            "predicted_answerable": false,
+            "category": "financial_information",
+            "matched_pattern": "\\bsalary\\b"
+        },
+        {
+            "case_id": "UNANS007",
+            "query": "What is the current physical location of the production data center?",
+            "actual_answerable": false,
+            "predicted_answerable": false,
+            "category": "infrastructure_inventory",
+            "matched_pattern": "\\bphysical location\\b"
+        },
+        {
+            "case_id": "UNANS008",
+            "query": "Which employee approved the January 2026 deployment?",
+            "actual_answerable": false,
+            "predicted_answerable": false,
+            "category": "employee_information",
+            "matched_pattern": "\\bwhich employee\\b"
+        },
+        {
+            "case_id": "UNANS009",
+            "query": "What is the exact hardware purchase price for the database servers?",
+            "actual_answerable": false,
+            "predicted_answerable": false,
+            "category": "financial_information",
+            "matched_pattern": "\\bprice\\b"
+        },
+        {
+            "case_id": "UNANS010",
+            "query": "Predict the precise date of the next production outage.",
+            "actual_answerable": false,
+            "predicted_answerable": false,
+            "category": "future_prediction",
+            "matched_pattern": "\\bpredict\\b"
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "total_queries": 5,
+    "k": 3,
+    "precision_at_k": 0.3333333333333333,
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "individual_results": [
+        {
+            "query": "Why is the Payment Service returning HTTP 500 errors during payment processing?",
+            "retrieved_ids": [
+                "INC001",
+                "INC003",
+                "INC002"
+            ],
+            "relevant_ids": [
+                "INC001"
+            ],
+            "precision_at_k": 0.3333333333333333,
+            "recall_at_k": 1.0,
+            "reciprocal_rank": 1.0
+        },
+        {
+            "query": "Why does the User Service crash after running for several hours?",
+            "retrieved_ids": [
+                "INC002",
+                "INC003",
+                "INC001"
+            ],
+            "relevant_ids": [
+                "INC002"
+            ],
+            "precision_at_k": 0.3333333333333333,
+            "recall_at_k": 1.0,
+            "reciprocal_rank": 1.0
+        },
+        {
+            "query": "Why are authentication requests failing with HTTP 500 after deployment?",
+            "retrieved_ids": [
+                "INC003",
+                "INC002",
+                "INC001"
+            ],
+            "relevant_ids": [
+                "INC003"
+            ],
+            "precision_at_k": 0.3333333333333333,
+            "recall_at_k": 1.0,
+            "reciprocal_rank": 1.0
+        },
+        {
+            "query": "What could cause database connection timeouts in the Payment Service?",
+            "retrieved_ids": [
+                "INC001",
+                "INC003",
+                "INC002"
+            ],
+            "relevant_ids": [
+                "INC001"
+            ],
+            "precision_at_k": 0.3333333333333333,
+            "recall_at_k": 1.0,
+            "reciprocal_rank": 1.0
+        },
+        {
+            "query": "What causes an application to run out of memory?",
+            "retrieved_ids": [
+                "INC002",
+                "INC003",
+                "INC001"
+            ],
+            "relevant_ids": [
+                "INC002"
+            ],
+            "precision_at_k": 0.3333333333333333,
+            "recall_at_k": 1.0,
+            "reciprocal_rank": 1.0
+        }
+    ]
+}

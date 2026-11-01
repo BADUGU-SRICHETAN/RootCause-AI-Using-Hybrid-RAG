@@ -1,0 +1,16 @@
+[
+    {
+        "case_id": "UNANS004",
+        "category": "unanswerable",
+        "query": "What will be the exact number of API requests tomorrow?",
+        "answerable": false,
+        "max_vector_score": 0.37298762798309326,
+        "retrieved_incident_ids": [
+            "INC049",
+            "INC012",
+            "INC013"
+        ],
+        "relevant_incident_ids": [],
+        "matched_incident_ids": []
+    }
+]
